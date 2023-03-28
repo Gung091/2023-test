@@ -7,6 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/14hZVMzkBEsUJpdWWUmzepZIfzhUJ-vHy
 """
 
+
+import streamlit as st
+import pandas as pd
+
 df=pd.read_csv("TWSE_TW-1.csv")
 df.fillna('', inplace=True)
 
